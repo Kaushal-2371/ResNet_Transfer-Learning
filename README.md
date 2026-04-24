@@ -64,6 +64,4 @@ resnet_model.compile(optimizer=Adam(1e-5), ...)
 
 *He et al. [Deep Residual Learning](https://arxiv.org/abs/1512.03385) · TF [Transfer Learning Guide](https://www.tensorflow.org/tutorials/images/transfer_learning)*
 
-**⭐ Star if this helped you understand transfer learning!**
-
 </div>
