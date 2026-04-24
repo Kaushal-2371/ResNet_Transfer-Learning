@@ -15,6 +15,12 @@
 
 Freeze ResNet50's ImageNet backbone (edges → textures → shapes, all learned for free), train only a lightweight head on 5 flower species. ~1M trainable params instead of 25M. Converges in minutes.
 
+## Tech Stack
+- Python
+- TensorFlow / Keras 
+- NumPy
+- Matplotlib
+
 ## Dataset & Setup
 
 TF's [Flower Photos](https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz) — 3,670 images across 5 classes, downloaded automatically. Split: 80/20, 180×180 input.
